@@ -1,10 +1,9 @@
 <template>
-  <a :href="href" :target="target">
-    <button
-      class="rounded-xl bg-yellowy-gray px-3 py-1.5 text-white transition duration-200 hover:bg-dark-yellowy-gray"
-    >
-      <slot />
-    </button>
+  <a
+    class="relative rounded border-b-2 border-contrast-1-dark bg-contrast-1 px-3 py-1.5 text-xl transition duration-300 hover:border-contrast-2-dark hover:bg-contrast-2 hover:text-white md:text-xl"
+    :href="props.href"
+  >
+    {{ props.buttonText }}
   </a>
 </template>
 
@@ -14,9 +13,9 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  target: {
+  buttonText: {
     type: String,
-    required: false,
+    required: true,
   },
 });
 </script>

@@ -16,8 +16,8 @@ module.exports = {
         "primary-text": "#111727",
         "contrast-1": "#ffb414",
         "contrast-1-dark": "#FF6600",
-        "contrast-2": "#407c9c",
-        "contrast-3": "#FF6600",
+        "contrast-2": "#3a7c9f",
+        "contrast-2-dark": "#0a2a49",
       },
       fontFamily: {
         gloock: ['"Gloock"', "serif"],

@@ -10,9 +10,9 @@
             :href="item.href"
             :class="[
               item.current
-                ? 'text-contrast-1-dark'
+                ? 'font-bold text-contrast-1-dark'
                 : 'hover:bg-contrast-1-light text-primary-text ',
-              'px-3 py-2 font-medium hover:underline',
+              'px-3 py-2 hover:underline',
             ]"
             >{{ item.name }}</a
           >
@@ -63,10 +63,15 @@ import {
 } from "@headlessui/vue";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/vue/24/outline";
 import { PlusIcon } from "@heroicons/vue/20/solid";
+import { useRoute } from "vue-router";
+import { computed } from "vue";
+
+const route = useRoute();
+const path = computed(() => route.path);
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "Tour Options", href: "#", current: false },
+  { name: "Home", href: "/", current: path.value == "/" },
+  { name: "Tour Details", href: "/tour", current: path.value == "/tour" },
   { name: "Community", href: "#", current: false },
   { name: "Contact Us", href: "#", current: false },
 ];
