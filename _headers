@@ -1,0 +1,9 @@
+/api/*
+  # headers for that path:
+  Access-Control-Allow-Origin: *
+  Hello: World
+
+/*
+  # headers for that path:
+  Access-Control-Allow-Origin: *
+  Miau: Guau
