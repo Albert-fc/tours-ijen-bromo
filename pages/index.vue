@@ -3,6 +3,7 @@
   <Container>
     <SectionsIntroduction />
     <SectionsTour />
+    <SectionsCommitment />
     <SectionsExperiences />
   </Container>
 </template>
