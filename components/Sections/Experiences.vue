@@ -7,7 +7,7 @@
       to engage with local communities, experience traditions firsthand, and
       make a positive impact.
     </p>
-    <div class="mt-8 gap-6 md:grid md:grid-cols-3">
+    <div class="mt-8 gap-6 space-y-4 md:grid md:grid-cols-3 md:space-y-0">
       <CardsBasic
         v-for="experience in experiences"
         :key="experience.name"

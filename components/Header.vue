@@ -12,32 +12,20 @@
               item.current
                 ? 'text-contrast-1-dark'
                 : 'hover:bg-contrast-1-light text-primary-text ',
-              'px-3 py-2 text-sm font-medium hover:underline',
+              'px-3 py-2 font-medium hover:underline',
             ]"
             >{{ item.name }}</a
           >
         </div>
-        <div class="flex items-center">
-          <div class="-ml-2 mr-2 flex items-center md:hidden">
-            <!-- Mobile menu button -->
-            <DisclosureButton
-              class="text-contrast-1-light relative inline-flex items-center justify-center rounded-md border p-2 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white hover:border-gray-100 hover:text-white"
-            >
-              <span class="absolute -inset-0.5" />
-              <Bars3Icon
-                v-if="!open"
-                class="block h-6 w-6"
-                aria-hidden="true"
-              />
-              <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" />
-            </DisclosureButton>
-          </div>
-          <button
-            type="button"
-            class="relative hidden items-center gap-x-1.5 rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 hover:bg-indigo-400 md:inline-flex"
+        <div class="-ml-2 mr-2 flex items-center md:hidden">
+          <!-- Mobile menu button -->
+          <DisclosureButton
+            class="text-contrast-1-light relative inline-flex items-center justify-center rounded-md border p-2 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white hover:border-gray-100 hover:text-white"
           >
-            New Job
-          </button>
+            <span class="absolute -inset-0.5" />
+            <Bars3Icon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
+            <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" />
+          </DisclosureButton>
         </div>
       </div>
     </div>
@@ -77,9 +65,9 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/vue/24/outline";
 import { PlusIcon } from "@heroicons/vue/20/solid";
 
 const navigation = [
-  { name: "Dashboard", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Calendar", href: "#", current: false },
+  { name: "Home", href: "#", current: true },
+  { name: "Tour Options", href: "#", current: false },
+  { name: "Community", href: "#", current: false },
+  { name: "Contact Us", href: "#", current: false },
 ];
 </script>
