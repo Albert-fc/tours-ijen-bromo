@@ -1,5 +1,8 @@
 <template>
-  <Container> HOLA! </Container>
+  <SectionsBigImage />
+  <Container>
+    <SectionsExperiences />
+  </Container>
 </template>
 
 <script>

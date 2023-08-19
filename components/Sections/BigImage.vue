@@ -6,13 +6,13 @@
         class="h-2/3 w-full object-fill"
       />
       <div
-        class="absolute left-1/2 bottom-12 h-full w-full rotate-45 scale-110 bg-white opacity-100"
+        class="absolute bottom-12 left-1/2 h-full w-full rotate-45 scale-110 bg-white opacity-100"
       ></div>
       <div
-        class="absolute left-1/2 bottom-0 h-full w-full -rotate-45 scale-150 bg-contrast-1 opacity-80"
+        class="absolute bottom-0 left-1/2 h-full w-full -rotate-45 scale-150 bg-contrast-1 opacity-80"
       ></div>
-      <div class="absolute right-0 bottom-12 bg-white p-3 text-2xl">
-        Bromo Ijen Indonesia Tours
+      <div class="absolute bottom-12 right-0 bg-white p-3 font-frank text-4xl">
+        Ijen Bromo Indonesia Tours
       </div>
     </div>
   </Container>

@@ -1,17 +1,11 @@
 <template>
-  <div class="mt-12 border-b border-neon-green text-3xl lg:text-5xl">
-    <span class="font-orbitron text-neon-green"> {{ sectionNumber }}. </span>
-    <span class="font-aldrich text-gray-100"> {{ sectionName }}</span>
-  </div>
+  <div class="w-20 border-t-4 border-contrast-1"></div>
+  <p class="mt-3 font-frank text-3xl">{{ props.sectionName }}</p>
 </template>
 
 <script setup>
 const props = defineProps({
   sectionName: {
-    type: String,
-    required: true,
-  },
-  sectionNumber: {
     type: String,
     required: true,
   },

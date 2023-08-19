@@ -24,6 +24,7 @@ module.exports = {
         cinzel: ['"Cinzel Decorative"', "cursive"],
         aboreto: ['"Aboreto"', "cursive"],
         playfair: ['"Playfair Display"', "serif"],
+        frank: ['"Frank Ruhl Libre"', "serif"],
       },
     },
   },
