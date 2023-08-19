@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-8">
+  <div class="mt-12">
     <TitlesSectionTitle sectionName="Discover Authentic Indonesia" />
     <p class="mt-2 text-justify text-base md:text-lg">
       Immerse yourself in the heart of Indonesia's culture and breathtaking

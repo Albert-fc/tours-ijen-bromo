@@ -1,6 +1,7 @@
 <template>
   <SectionsBigImage />
   <Container>
+    <SectionsTour />
     <SectionsExperiences />
   </Container>
 </template>
