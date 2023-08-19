@@ -2,7 +2,7 @@
   <div class="mx-auto max-w-[1300px]">
     <div class="relative mx-auto overflow-hidden shadow-lg md:mt-0">
       <img
-        src="~/assets/img/ijen_pano.png"
+        src="~/assets/img/ijen_pano.jpg"
         class="max-h-96 w-full object-cover"
       />
       <div

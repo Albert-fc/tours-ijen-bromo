@@ -25,7 +25,7 @@ let experiences = [
     name: "Homestay Immersion",
     description:
       "Immerse yourself in the local way of life by staying with welcoming families. Learn traditional cooking, participate in daily activities, and gain an intimate understanding of Indonesian culture.",
-    imagePath: "experiences/homestay.png",
+    imagePath: "experiences/homestay.jpg",
   },
   {
     name: "Cultural Workshops",
