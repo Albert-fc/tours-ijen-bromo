@@ -40,7 +40,8 @@
         <div>
           <TitlesSectionTitle sectionName="Included in your trip" />
           <div v-for="item in included" :key="item.name" class="mt-4">
-            ✅
+            <span v-if="item.included">✅</span>
+            <span v-else>❌</span>
             <span class="ml-2">
               <span class="font-medium">{{ item.name }}:</span>
               {{ item.description }}
@@ -176,48 +177,54 @@ const included = [
     name: "Private Transportation",
     description:
       "Enjoy the convenience of a private car for your comfort and ease.",
+    included: true,
   },
   {
     name: "Pick-Up and Drop-Off",
     description:
       "Seamless transfers to and from Banyuwangi locations - harbor, airport, station, or hotel",
+    included: true,
   },
   {
     name: "Full Petrol",
     description: "Your travel is worry-free with a fully fueled vehicle.",
+    included: true,
   },
   {
     name: "Entrance Fees",
     description:
       "All entrance fees are covered, including those for the waterfall and the mesmerizing Kawah Ijen",
+    included: true,
   },
   {
     name: "Accommodation",
     description:
       "One night's stay in cozy local accommodation, immersing you in the heart of the culture.",
+    included: true,
   },
   {
     name: "Expert Tour Guide",
     description:
       "Your experienced guide will lead you through every step of your journey.",
+    included: true,
   },
   {
     name: "Dinner and Breakfast",
     description:
       "Savor local flavors with one dinner and one breakfast included.",
+    included: true,
   },
-];
-
-const excluded = [
+  {
+    name: "Dinner and Breakfast",
+    description:
+      "Savor local flavors with one dinner and one breakfast included.",
+    included: true,
+  },
   {
     name: "Insurance",
     description:
       "Please arrange for your own travel insurance to ensure a worry-free trip.",
-  },
-  {
-    name: "Guide and Driver Tips",
-    description:
-      "While not included, tips for your guide and driver are appreciated for exceptional service.",
+    included: false,
   },
 ];
 </script>

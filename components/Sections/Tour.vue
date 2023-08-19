@@ -1,7 +1,7 @@
 <template>
   <div class="mt-12">
     <TitlesSectionTitle sectionName="2 Days - 1 Night Adventure" />
-    <div class="mt-6 grid-cols-3 gap-x-12 md:grid">
+    <div class="mt-4 grid-cols-3 gap-x-12 md:grid">
       <div class="order-last">
         <img src="~/assets/img/team.jpg" class="rounded" />
       </div>
