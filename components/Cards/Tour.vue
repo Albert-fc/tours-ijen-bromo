@@ -1,8 +1,11 @@
 <template>
-  <div>
+  <div class="group relative">
+    <div
+      class="absolute left-0 top-0 h-full w-full -translate-x-1 translate-y-1 rounded-xl border-8 border-contrast-1 transition duration-300 group-hover:scale-105"
+    ></div>
     <a :href="props.href">
       <div
-        class="group relative h-64 overflow-hidden rounded-xl transition duration-300 hover:scale-105"
+        class="group relative h-64 overflow-hidden rounded-xl transition duration-300 group-hover:scale-105"
       >
         <img :src="`${props.imagePath}`" class="absolute object-contain" />
         <div
