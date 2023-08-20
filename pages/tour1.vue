@@ -1,7 +1,7 @@
 <template>
   <SectionsBigImage title="Bromo Ijen Expedition: 2D/1N" :variant="2" />
   <Container>
-    <div class="mt-12 flow-root">
+    <div class="mt-8 flow-root">
       <TitlesPageTitle sectionName="2 Days - 1 Night (2D/1N) Adventure" />
       <div class="mt-4 gap-x-4 md:grid md:grid-cols-2">
         <div v-for="timeline in timelines" :key="timeline.name">

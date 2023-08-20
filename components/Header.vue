@@ -74,6 +74,6 @@ const navigation = [
   { name: "2D/1N Tour", href: "/tour1", current: path.value == "/tour1" },
   { name: "3D/2N Tour", href: "/tour2", current: path.value == "/tour2" },
   { name: "Community", href: "#", current: false },
-  { name: "Contact Us", href: "#", current: false },
+  { name: "Contact Us", href: "/contact", current: path.value == "/contact" },
 ];
 </script>
