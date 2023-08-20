@@ -41,10 +41,6 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  title: {
-    type: String,
-    required: true,
-  },
   imagePath: {
     type: String,
     required: true,
