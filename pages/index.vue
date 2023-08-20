@@ -4,6 +4,7 @@
     <SectionsIntroduction />
     <SectionsTours />
     <SectionsCommitment />
+    <SectionsTestimonials />
     <SectionsExperiences />
   </Container>
 </template>
