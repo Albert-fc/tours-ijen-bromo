@@ -1,12 +1,14 @@
 <template>
-  <div class="flex items-center">
+  <a class="flex items-center" href="/">
     <img
       class="h-12 w-auto"
       src="~assets/img/volcano_color.png"
       alt="Ijen Bromo Indonesia"
     />
     <div class="mx-4">
-      <p class="font-playfair text-2xl text-primary-text">IBI Tours</p>
+      <p class="font-frank text-2xl text-contrast-2-dark">
+        Ijen Bromo Indonesia
+      </p>
     </div>
-  </div>
+  </a>
 </template>
