@@ -2,7 +2,7 @@
   <SectionsBigImage />
   <Container>
     <SectionsIntroduction />
-    <SectionsTour />
+    <SectionsTours />
     <SectionsCommitment />
     <SectionsExperiences />
   </Container>
