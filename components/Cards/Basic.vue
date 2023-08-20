@@ -1,21 +1,20 @@
 <template>
-  <div>
-    <div class="group relative h-52 overflow-hidden rounded-xl">
+  <div class="group relative overflow-hidden rounded-xl border p-4">
+    <div
+      class="absolute top-0 h-36 w-full -translate-y-12 translate-x-16 rotate-45 scale-150 bg-contrast-1 opacity-40 transition duration-500 group-hover:rotate-12"
+    ></div>
+    <div
+      class="absolute top-0 h-full w-24 -translate-y-12 translate-x-10 rotate-12 scale-150 bg-contrast-2 opacity-10 transition duration-500 group-hover:rotate-6"
+    ></div>
+    <div class="group relative h-44 overflow-hidden rounded-xl">
       <img :src="`${props.imagePath}`" class="absolute object-contain" />
-      <div
-        class="right-0 top-0 z-20 h-full w-full bg-white opacity-0 transition duration-500 group-hover:flex group-hover:opacity-70"
-      ></div>
-      <div
-        class="absolute left-3 top-3 rounded bg-white px-2 py-1 text-xl text-primary-text opacity-90 transition duration-500 group-hover:bg-transparent"
-      >
-        <p>{{ props.title }}</p>
-        <p
-          class="mt-2 hidden text-sm transition duration-500 group-hover:block"
-        >
-          {{ props.description }}
-        </p>
-      </div>
     </div>
+    <p class="font-mediun mt-4 text-xl">
+      {{ props.title }}
+    </p>
+    <p class="mt-4 pr-4 text-justify text-sm text-gray-500">
+      {{ props.description }}
+    </p>
   </div>
 </template>
 
