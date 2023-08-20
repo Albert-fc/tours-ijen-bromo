@@ -1,5 +1,5 @@
 <template>
-  <SectionsBigImage />
+  <SectionsBigImage title="Ijen Bromo Indonesia Tours" :variant="1" />
   <Container>
     <SectionsIntroduction />
     <SectionsTours />

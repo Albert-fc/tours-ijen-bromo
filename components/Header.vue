@@ -71,7 +71,8 @@ const path = computed(() => route.path);
 
 const navigation = [
   { name: "Home", href: "/", current: path.value == "/" },
-  { name: "Tour Details", href: "/tour", current: path.value == "/tour" },
+  { name: "2D/1N Tour", href: "/tour1", current: path.value == "/tour1" },
+  { name: "3D/2N Tour", href: "/tour2", current: path.value == "/tour2" },
   { name: "Community", href: "#", current: false },
   { name: "Contact Us", href: "#", current: false },
 ];

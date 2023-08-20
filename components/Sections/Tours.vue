@@ -7,16 +7,16 @@
       landscapes, and authentic experiences. Whether you're seeking a compact
       yet enriching
       <a href="/tour1" class="font-medium text-contrast-1-dark underline"
-        >2 Days / 1 Night</a
+        >2 Days/1 Night</a
       >
       escape or a more comprehensive
       <a href="/tour2" class="font-medium text-contrast-1-dark underline"
-        >3 Days / 2 Nights</a
+        >3 Days/2 Nights</a
       >
       expedition, our tours promise to unveil the beauty and soul of Indonesia
       in unforgettable ways.
     </p>
-    <div class="mt-6 grid-cols-2 gap-6 md:grid">
+    <div class="mt-6 grid-cols-2 gap-6 space-y-6 md:grid md:space-y-0">
       <CardsTour
         v-for="(tour, index) in tours"
         :key="index"
@@ -35,17 +35,17 @@ const tours = [
   {
     name: "2 Days / 1 Night Adventure",
     description:
-      "Immerse yourself in local culture, explore breathtaking landscapes, and connect with communities on an intimate level. From cascading waterfalls to sunrise treks and heartwarming interactions with locals, this meticulously crafted tour promises to enrich your travel experience in ways you've never imagined.",
+      "Dive into local culture, stunning landscapes, and genuine connections. From waterfalls to sunrise treks and heartfelt local experiences, our carefully curated tour elevates your journey beyond imagination.",
     href: "/tour1",
-    path: ["Banyuwangi", "Bromo", "Banyuwangi (Ferry to Bali)"],
+    path: ["Banyuwangi", "Bromo", "Banyuwangi/Bali"],
     imagePath: "tours/team.jpg",
   },
   {
     name: "3 Days / 2 Nights Adventure",
     description:
-      "Delve into the heart of Indonesia's allure with our captivating 3-day, 2-night adventure. Traverse from Surabaya to Madakalipura Waterfall, Bromo, and Ijen as you explore breathtaking landscapes, engage with local culture, and forge unforgettable memories.",
+      "Embark on a captivating 3-day, 2-night adventure, immersing yourself in Indonesia's allure. Journey from Surabaya to Madakalipura Waterfall, Bromo, and Ijen, discovering breathtaking landscapes, embracing local culture, and crafting enduring memories.",
     href: "/tour2",
-    path: ["Surabaya", "Bromo", "Ijen", "Banyuwangi (Ferry to Bali)"],
+    path: ["Surabaya", "Bromo", "Ijen", "Banyuwangi/Bali"],
     imagePath: "tours/ijen.jpg",
   },
 ];
