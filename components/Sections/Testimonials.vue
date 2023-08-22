@@ -12,18 +12,39 @@
     </p>
 
     <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-4 md:grid-cols-3">
-      <CardsTestimonial
-        v-for="testimonial in testimonials"
-        :key="testimonial.name"
-        :name="testimonial.name"
-        :description="testimonial.description"
-        :imagePath="testimonial.imagePath"
-      />
+      <div
+        v-for="(testimonial, index) in testimonials"
+        :key="index"
+        :class="{
+          hidden: !readMore && index >= limit,
+        }"
+      >
+        <CardsTestimonial
+          :name="testimonial.name"
+          :description="testimonial.description"
+          :imagePath="testimonial.imagePath"
+        />
+      </div>
     </div>
+    <ButtonsMain
+      v-if="!readMore"
+      class="ml-2.5 mt-2"
+      buttonText="Read More Testimonials"
+      @click="readMore = true"
+    />
   </div>
 </template>
 
 <script setup>
+let limit = 3;
+let readMore = ref(false);
+
+function invertReadMore() {
+  console.log("oldState:", readMore);
+  readMore = !readMore;
+  console.log("newState:", readMore);
+}
+
 const testimonials = [
   {
     name: "Enric A.",
@@ -56,4 +77,7 @@ const testimonials = [
     imagePath: "https://i.pravatar.cc/150?img=12",
   },
 ];
+const updateLimit = async () => {
+  limit = 5;
+};
 </script>
