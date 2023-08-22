@@ -17,7 +17,7 @@
           Join me in discovering the best parts of Bromo - the places I love and
           the stories I know. Let's make memories together!
         </p>
-        <div class="mx-auto mt-6 w-3/4">
+        <div class="mx-auto mt-6 w-full md:w-3/4">
           <CardsContact
             name="Ahmad Mohamad Hasim"
             title="Manager/Guide"
