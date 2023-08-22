@@ -21,7 +21,7 @@
       >
         <CardsTestimonial
           data-aos="fade-right"
-          :data-aos-delay="!isMobile() && 100 * index"
+          :data-aos-delay="100 * index"
           :name="testimonial.name"
           :description="testimonial.description"
           :imagePath="testimonial.imagePath"
@@ -40,13 +40,6 @@
 <script setup>
 let limit = 3;
 let readMore = ref(false);
-function isMobile() {
-  if (screen.width <= 760) {
-    return true;
-  } else {
-    return false;
-  }
-}
 
 const testimonials = [
   {

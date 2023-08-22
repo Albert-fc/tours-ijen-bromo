@@ -11,9 +11,8 @@
     </p>
     <div class="mt-8 gap-2 space-y-4 md:grid md:grid-cols-3 md:space-y-0">
       <CardsBasic
-        v-for="(experience, index) in experiences"
+        v-for="experience in experiences"
         data-aos="fade-down-right"
-        :data-aos-delay="!isMobile() && 100 * index"
         :key="experience.name"
         :imagePath="experience.imagePath"
         :title="experience.name"
@@ -24,13 +23,6 @@
 </template>
 
 <script setup>
-function isMobile() {
-  if (screen.width <= 760) {
-    return true;
-  } else {
-    return false;
-  }
-}
 let experiences = [
   {
     name: "Homestay Immersion",
