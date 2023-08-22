@@ -16,7 +16,7 @@
         v-for="(testimonial, index) in testimonials"
         :key="index"
         :class="{
-          hidden: !readMore && index >= limit,
+          'hidden md:block': !readMore && index >= limit,
         }"
       >
         <CardsTestimonial
@@ -28,7 +28,7 @@
     </div>
     <ButtonsMain
       v-if="!readMore"
-      class="ml-2.5 mt-2"
+      class="ml-2.5 mt-2 md:hidden"
       buttonText="Read More Testimonials"
       @click="readMore = true"
     />
