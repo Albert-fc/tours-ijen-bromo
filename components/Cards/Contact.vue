@@ -2,7 +2,7 @@
   <div class="rounded-lg border border-gray-100 bg-white text-center shadow">
     <div class="flex flex-1 flex-col border-b p-7">
       <img
-        class="mx-auto h-36 w-36 flex-shrink-0 rounded-full"
+        class="mx-auto h-5/6 w-5/6 flex-shrink-0 rounded-full"
         :src="props.imagePath"
         alt=""
       />

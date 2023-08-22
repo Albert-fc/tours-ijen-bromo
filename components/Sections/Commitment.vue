@@ -15,6 +15,7 @@
         :key="commitment.name"
         class="mt-3 rounded border-l-4 bg-gray-200 p-4 md:mt-0"
         :class="commitment.color"
+        data-aos="zoom-in"
       >
         <div class="flex w-full items-center justify-between">
           <p class="text-lg font-bold text-contrast-2-dark">

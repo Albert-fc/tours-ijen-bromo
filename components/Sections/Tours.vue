@@ -19,6 +19,8 @@
     <div class="mt-6 grid-cols-2 gap-6 space-y-6 md:grid md:space-y-0">
       <CardsTour
         v-for="(tour, index) in tours"
+        data-aos="flip-down"
+        :data-aos-delay="!isMobile() && 100 * index"
         :key="index"
         :title="tour.name"
         :href="tour.href"
@@ -31,6 +33,14 @@
 </template>
 
 <script setup>
+function isMobile() {
+  if (screen.width <= 760) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 const tours = [
   {
     name: "2 Days / 1 Night Adventure",
