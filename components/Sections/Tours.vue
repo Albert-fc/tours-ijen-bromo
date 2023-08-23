@@ -6,11 +6,11 @@
       designed to offer a unique blend of cultural immersion, breathtaking
       landscapes, and authentic experiences. Whether you're seeking a compact
       yet enriching
-      <a href="/tour1" class="font-medium text-contrast-1-dark underline"
+      <a href="/tours/bi2d1n" class="font-medium text-contrast-1-dark underline"
         >2 Days/1 Night</a
       >
       escape or a more comprehensive
-      <a href="/tour2" class="font-medium text-contrast-1-dark underline"
+      <a href="/tours/bi3d2n" class="font-medium text-contrast-1-dark underline"
         >3 Days/2 Nights</a
       >
       expedition, our tours promise to unveil the beauty and soul of Indonesia
@@ -38,7 +38,7 @@ const tours = [
     name: "2 Days / 1 Night Adventure",
     description:
       "Dive into local culture, stunning landscapes, and genuine connections. From waterfalls to sunrise treks and heartfelt local experiences, our carefully curated tour elevates your journey beyond imagination.",
-    href: "/tour1",
+    href: "/tours/bi2d1n",
     path: ["Banyuwangi", "Bromo", "Banyuwangi/Bali"],
     imagePath: "tours/team.jpg",
   },
@@ -46,7 +46,7 @@ const tours = [
     name: "3 Days / 2 Nights Adventure",
     description:
       "Embark on a captivating 3-day, 2-night adventure, immersing yourself in Indonesia's allure. Journey from Surabaya to Madakalipura Waterfall, Bromo, and Ijen, discovering breathtaking landscapes, embracing local culture, and crafting enduring memories.",
-    href: "/tour2",
+    href: "/tours/bi3d2n",
     path: ["Surabaya", "Bromo", "Ijen", "Banyuwangi/Bali"],
     imagePath: "tours/ijen.jpg",
   },

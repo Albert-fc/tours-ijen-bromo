@@ -4,10 +4,10 @@
       <img
         :src="
           {
-            1: 'headers/ijen_pano.jpg',
-            2: 'headers/ijen_pano_2.jpg',
-            3: 'headers/rice.jpg',
-            4: 'headers/waterfall.jpg',
+            1: '/headers/ijen_pano.jpg',
+            2: '/headers/ijen_pano_2.jpg',
+            3: '/headers/rice.jpg',
+            4: '/headers/waterfall.jpg',
           }[props.variant]
         "
         class="max-h-96 w-full object-cover"
