@@ -2,8 +2,12 @@
   {
     "id": "bi2d1n",
     "variant": 2,
+    "featured": true,
     "name": "Bromo Ijen Expedition: 2D/1N",
-    "description": "2 Days - 1 Night (2D/1N) Adventure",
+    "altName": "2 Days - 1 Night (2D/1N) Adventure",
+    "description": "Dive into local culture, stunning landscapes, and genuine connections. From waterfalls to sunrise treks and heartfelt local experiences, our carefully curated tour elevates your journey beyond imagination.",
+    "path": ["Banyuwangi", "Bromo", "Banyuwangi/Bali"],
+    "imagePath": "tours/team.jpg",
     "timeline": [
       {
         "name": "Day 1",
@@ -164,7 +168,11 @@
     "id": "bi3d2n",
     "variant": 3,
     "name": "Bromo Ijen Expedition: 3D/2N",
-    "description": "3 Days - 2 Nights (3D/2N) Adventure",
+    "featured": true,
+    "altName": "3 Days - 2 Nights (3D/2N) Adventure",
+    "description": "Embark on a captivating 3-day, 2-night adventure, immersing yourself in Indonesia's allure. Journey from Surabaya to Madakalipura Waterfall, Bromo, and Ijen, discovering breathtaking landscapes, embracing local culture, and crafting enduring memories.",
+    "path": ["Surabaya", "Bromo", "Ijen", "Banyuwangi/Bali"],
+    "imagePath": "tours/ijen.jpg",
     "timeline": [
       {
         "name": "Day 1",

@@ -2,7 +2,7 @@
   <SectionsBigImage :title="tour.name" :variant="tour.variant" />
   <Container>
     <div class="mt-8 flow-root">
-      <TitlesPageTitle :sectionName="tour.description" />
+      <TitlesPageTitle :sectionName="tour.altName" />
       <div :class="`mt-4 gap-x-4 md:grid md:grid-cols-${tour.timeline.length}`">
         <div v-for="day in tour.timeline" :key="day.name">
           <TitlesSectionTitle :sectionName="day.name" />

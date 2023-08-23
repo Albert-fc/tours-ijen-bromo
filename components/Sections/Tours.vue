@@ -18,37 +18,25 @@
     </p>
     <div class="mt-6 grid-cols-2 gap-6 space-y-6 md:grid md:space-y-0">
       <CardsTour
-        v-for="(tour, index) in tours"
+        v-for="(tour, index) in featuredTours"
         data-aos="flip-down"
         :data-aos-delay="100 * index"
         :key="index"
         :title="tour.name"
-        :href="tour.href"
+        :href="`/tours/${tour.id}`"
         :path="tour.path"
         :description="tour.description"
         :imagePath="tour.imagePath"
       />
     </div>
   </div>
+  <div class="mt-10">
+    <ButtonsRef href="/tourlist" buttonText="Discover More Tours!" />
+  </div>
 </template>
 
 <script setup>
-const tours = [
-  {
-    name: "2 Days / 1 Night Adventure",
-    description:
-      "Dive into local culture, stunning landscapes, and genuine connections. From waterfalls to sunrise treks and heartfelt local experiences, our carefully curated tour elevates your journey beyond imagination.",
-    href: "/tours/bi2d1n",
-    path: ["Banyuwangi", "Bromo", "Banyuwangi/Bali"],
-    imagePath: "tours/team.jpg",
-  },
-  {
-    name: "3 Days / 2 Nights Adventure",
-    description:
-      "Embark on a captivating 3-day, 2-night adventure, immersing yourself in Indonesia's allure. Journey from Surabaya to Madakalipura Waterfall, Bromo, and Ijen, discovering breathtaking landscapes, embracing local culture, and crafting enduring memories.",
-    href: "/tours/bi3d2n",
-    path: ["Surabaya", "Bromo", "Ijen", "Banyuwangi/Bali"],
-    imagePath: "tours/ijen.jpg",
-  },
-];
+import tours from "~/assets/data/tours.json";
+
+const featuredTours = tours.filter((obj) => obj.featured === true);
 </script>
