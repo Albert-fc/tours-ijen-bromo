@@ -5,8 +5,8 @@
       <div class="mt-8 pb-6 md:mr-12">
         <TitlesPageTitle sectionName="About Me" />
         <p class="mt-6 text-justify">
-          Hi there! I was born right here in the beautiful Bromo region, so you
-          can say I know these places like the back of my hand. I learned
+          Hi there! I was born right here in the beautiful Kawah Ijen region, so
+          you can say I know these places like the back of my hand. I learned
           English because I wanted to show folks like you around my home.
         </p>
         <p class="mt-2 text-justify">
@@ -14,8 +14,8 @@
           land and hanging out with my trusty four-legged friend.
         </p>
         <p class="mt-2 text-justify">
-          Join me in discovering the best parts of Bromo - the places I love and
-          the stories I know. Let's make memories together!
+          Join me in discovering the best parts of eastern Java - the places I
+          love and the stories I know. Let's make memories together!
         </p>
         <div class="mx-auto mt-6 w-full md:w-3/4">
           <CardsContact

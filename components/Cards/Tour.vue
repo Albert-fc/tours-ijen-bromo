@@ -5,7 +5,7 @@
     ></div>
     <a :href="props.href">
       <div
-        class="group relative h-64 overflow-hidden rounded-xl transition duration-300"
+        class="group relative h-52 overflow-hidden rounded-xl transition duration-300 md:h-64"
       >
         <img :src="`${props.imagePath}`" class="absolute object-contain" />
         <div
@@ -16,17 +16,18 @@
         >
           <p>{{ props.title }}</p>
           <div
-            class="mt-0.5 flex w-max rounded text-sm text-gray-500 opacity-90"
+            class="mt-0.5 flex flex-nowrap rounded text-sm text-gray-500 opacity-90"
           >
-            <span v-for="(path, index) in props.path" :key="index">
+            <span
+              v-for="(path, index) in props.path"
+              :key="index"
+              class="flex flex-nowrap items-center"
+            >
               {{ path }}
-              <div
-                v-if="index < props.path.length - 1"
-                class="mx-1 inline-flex w-4 -translate-y-1 overflow-hidden border-b border-primary-text"
-              ></div>
+              <span v-if="index < props.path.length - 1" class="mx-1"> - </span>
             </span>
           </div>
-          <p class="mt-3 text-base transition duration-500">
+          <p class="mt-3 text-sm transition duration-500">
             {{ props.description }}
           </p>
         </div>

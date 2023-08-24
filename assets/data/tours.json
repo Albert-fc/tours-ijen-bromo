@@ -339,5 +339,156 @@
         "included": false
       }
     ]
+  },
+  {
+    "id": "tswbi4d3n",
+    "variant": 2,
+    "name": "Tumpak Sewu Waterfall - Bromo - Ijen Expedition: 4D/3N",
+    "featured": true,
+    "altName": "4 Days - 3 Nights (4D/3N) Adventure",
+    "description": "Embark on an exhilarating 4-day, 3-night expedition through Indonesia's natural wonders. Traverse from Tumpak Sewu Waterfall to Bromo and Ijen, unveiling stunning landscapes, engaging with local communities, and forging unforgettable memories.",
+    "path": ["Surabaya", "Bromo", "Ijen", "Banyuwangi/Bali"],
+    "imagePath": "tours/trek.jpg",
+    "timeline": [
+      {
+        "name": "Day 1",
+        "plan": [
+          {
+            "title": "Arrival and Welcome",
+            "description": "Kick off your adventure with a warm arrival in Surabaya or Malang, where we'll extend a hearty welcome around 10:00 am.",
+            "icon": "🌟",
+            "iconBackground": "bg-gray-200"
+          },
+          {
+            "title": "Journey to Tumpak Sewu",
+            "description": "Embark on a scenic 5-6 hour drive to an accommodation near the awe-inspiring Tumpak Sewu waterfall.",
+            "icon": "🏞️",
+            "iconBackground": "bg-gray-200"
+          },
+          {
+            "title": "Check-In and Relax",
+            "description": "Settle into your accommodation and unwind amidst the tranquility of nature's beauty.",
+            "icon": "🛏️",
+            "iconBackground": "bg-gray-200"
+          }
+        ]
+      },
+      {
+        "name": "Day 2",
+        "plan": [
+          {
+            "title": "Explore Tumpak Sewu",
+            "description": "Start the day with a delicious breakfast and embark on an exciting exploration of the captivating Tumpak Sewu waterfall.",
+            "icon": "🌊",
+            "iconBackground": "bg-gray-200"
+          },
+          {
+            "title": "Transition to Bromo",
+            "description": "Bid farewell to Tumpak Sewu and journey to Bromo, where another adventure awaits, taking around 6 hours.",
+            "icon": "🛤️",
+            "iconBackground": "bg-gray-200"
+          },
+          {
+            "title": "Leisure Time",
+            "description": "Savor a leisurely stroll around Cemoro Lawang or indulge in free activities, absorbing the local ambiance.",
+            "icon": "🚶",
+            "iconBackground": "bg-gray-200"
+          }
+        ]
+      },
+      {
+        "name": "Day 3",
+        "plan": [
+          {
+            "title": "Bromo Sunrise Trek",
+            "description": "Rise early for an exhilarating sunrise trek to witness the magical Bromo sunrise.",
+            "icon": "🌄",
+            "iconBackground": "bg-gray-200"
+          },
+          {
+            "title": "Exploration of Bromo",
+            "description": "Trek to the iconic Bromo volcano and experience its majestic beauty from up close.",
+            "icon": "🌋",
+            "iconBackground": "bg-gray-200"
+          },
+          {
+            "title": "Engaging with Local Culture",
+            "description": "Participate in a cooking class and immerse yourself in local traditions, followed by a heartwarming dinner.",
+            "icon": "🍳",
+            "iconBackground": "bg-gray-200"
+          }
+        ]
+      },
+      {
+        "name": "Day 4",
+        "plan": [
+          {
+            "title": "Ijen Sunrise Adventure",
+            "description": "Embark on an early sunrise adventure to Mount Ijen, known for its mesmerizing blue lake.",
+            "icon": "🌅",
+            "iconBackground": "bg-gray-200"
+          },
+          {
+            "title": "Exploration and Farewell",
+            "description": "Discover coffee and rubber plantations, visit the stunning Jagir waterfall, and bid farewell to this unforgettable journey.",
+            "icon": "🌿",
+            "iconBackground": "bg-gray-200"
+          },
+          {
+            "title": "Conclusion of Tour",
+            "description": "As your adventure concludes, take home cherished memories and the spirit of Indonesia's natural wonders and rich culture.",
+            "icon": "🏁",
+            "iconBackground": "bg-gray-200"
+          }
+        ]
+      }
+    ],
+    "included": [
+      {
+        "name": "Private Transportation",
+        "description": "Enjoy the convenience of a private car for your comfort and ease.",
+        "included": true
+      },
+      {
+        "name": "Pick-Up and Drop-Off",
+        "description": "Seamless transfers to and from Banyuwangi locations - harbor, airport, station, or hotel",
+        "included": true
+      },
+      {
+        "name": "Full Petrol",
+        "description": "Your travel is worry-free with a fully fueled vehicle.",
+        "included": true
+      },
+      {
+        "name": "Entrance Fees",
+        "description": "All entrance fees are covered, including those for the waterfall and the mesmerizing Kawah Ijen",
+        "included": true
+      },
+      {
+        "name": "Accommodation",
+        "description": "One night's stay in cozy local accommodation, immersing you in the heart of the culture.",
+        "included": true
+      },
+      {
+        "name": "Expert Tour Guide",
+        "description": "Your experienced guide will lead you through every step of your journey.",
+        "included": true
+      },
+      {
+        "name": "Dinner and Breakfast",
+        "description": "Savor local flavors with one dinner and one breakfast included.",
+        "included": true
+      },
+      {
+        "name": "Dinner and Breakfast",
+        "description": "Savor local flavors with one dinner and one breakfast included.",
+        "included": true
+      },
+      {
+        "name": "Insurance",
+        "description": "Please arrange for your own travel insurance to ensure a worry-free trip.",
+        "included": false
+      }
+    ]
   }
 ]
